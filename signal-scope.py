@@ -41,4 +41,4 @@ def getLcmData(channel):
 if __name__ == "__main__":
     initPlots()
     ani = animation.FuncAnimation(fig, runPlots, interval=frequency)
-    plt.show()
+    plt.show() 
